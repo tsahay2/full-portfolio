@@ -37,7 +37,7 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
+            <h1 className="responsive-headline">This is {name}.</h1>
              {/*<TypewriterTextComponent/>*/}
             <h3>{description}.</h3>
             <hr />
