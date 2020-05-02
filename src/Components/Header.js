@@ -5,6 +5,12 @@ class Header extends Component {
   render() {
 
     if(this.props.data){
+        var superScriptStyle = {
+            display: "inline-block",
+            borderBottom: "1px solid",
+            paddingBottom: "10px"
+
+        };
       var name = this.props.data.name;
       var occupation= this.props.data.occupation;
       var description= this.props.data.description;
@@ -29,7 +35,7 @@ class Header extends Component {
             {/*<li><a className="smoothscroll" href="#portfolio">Works</a></li>*/}
             {/*<li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>*/}
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
-             <li><a href = "https://covid-voice-recognition.herokuapp.com/index.html">Covid19</a></li>
+             <li><a href = "http://covid.tusharsahay.com">Covid19</a></li>
          </ul>
 
       </nav>
